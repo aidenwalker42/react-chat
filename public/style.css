@@ -1,0 +1,64 @@
+html * {
+    margin: 0;
+}
+body * {
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif
+}
+
+.whole-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.whole-container button{
+    width: 50%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.single-message{
+    background-color: rgb(245, 245, 245);
+    width: 40%;
+    max-width: 300px;
+    margin: 10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    border-radius: 4px;
+    border-bottom: 2px solid grey;
+}
+.single-message h3, p{
+    margin-left: 4px;
+    padding: 4px;
+}
+
+.all-messages{
+    display: flex;
+    flex-direction: column-reverse;
+
+    background-color: rgb(233, 233, 233);
+    height: 50vh;
+    width: 50%;
+    overflow:auto
+}
+form{
+    background-color: whitesmoke;
+    width: 50%;
+}
+.form-username input{
+    width: 100%;
+}
+
+form textarea{
+    width: 100%;
+    margin-top: 4px;
+    
+}
+
+.form-button input{
+    width: 100%;
+    padding: 10px;
+}
